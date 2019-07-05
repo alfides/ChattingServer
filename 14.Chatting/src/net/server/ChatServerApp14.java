@@ -41,7 +41,6 @@ public class ChatServerApp14 {
 				
 				serverSocketThread=new ChatServerSocketThread14(socket, list);
 				list.add(serverSocketThread);
-				System.out.println(serverSocketThread.getClientName());
 				
 				System.out.println("\n\t\t\t\t[ChatServerApp Main Thread] : 현재 접속자 수"+list.size()+"\n");
 				
